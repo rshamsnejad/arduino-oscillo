@@ -1,5 +1,5 @@
 const int PinMes1 = A0; // pin qui recevra un signal à mesurer
-const int PinMes2 = A1; // pin qui recevra un autre signal à mesurer
+const int PinMes2 = A7; // pin qui recevra un autre signal à mesurer
 const unsigned long delais = 10000; // temps (en µs) entre deux points de mesure (fixe la fréquence d'acquisition)
 
 int mes1; // variable qui stockera la valeur mesurée (sur 10 bits) par le capteur 1

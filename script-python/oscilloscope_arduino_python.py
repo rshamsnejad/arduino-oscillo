@@ -128,7 +128,7 @@ ser.port = 'COM3' #on définit sur quel port série l'arduino est branché
 nb_donnees=2 #nombre de valeurs que l'arduino renvoie sur chaque ligne (pour cet exemple : deux tensions entre 0 et 5V)
 
 taille_bloc=10  #nombre de points de mesures dans un "bloc" de données (le programme trace les données bloc par bloc)
-nb_bloc_affich=100 #nombre de "blocs" de données qu'on trace sur un même graph (fixe la taille du graph roulant)
+nb_bloc_affich=500 #nombre de "blocs" de données qu'on trace sur un même graph (fixe la taille du graph roulant)
 
 nb_bloc_max=10000 #nombre maximal de "blocs" de données qu'on va mesurer (fixe la durée max pendant laquelle on fait des mesures)
 
